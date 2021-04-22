@@ -9,6 +9,7 @@ module.exports = {
     plugins: [],
   },
   jest: {},
+  mutate: ['*.vue'],
   reporters: ["progress", "clear-text", "html"],
   coverageAnalysis: "off",
 };
