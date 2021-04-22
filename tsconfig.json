@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "Common/*": [
+        "packages/common_package/*"
+      ]
+    },
+    "types": [
+      "node",
+      "vue",
+      "vue-i18n",
+      "reflect-metadata"
+    ],
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es2015.promise",
+      "es2017.object",
+      "es2019"
+    ],
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true
+  }
+}

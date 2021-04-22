@@ -1,0 +1,32 @@
+{
+  "name": "stryker-js-bad-case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@stryker-mutator/core": "^4.6.0",
+    "@stryker-mutator/jest-runner": "^4.6.0",
+    "@vue/babel-preset-jsx": "^1.2.4",
+    "@vue/test-utils": "^1.1.4",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4",
+    "vue-jest": "^3.0.7",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2"
+  }
+}
